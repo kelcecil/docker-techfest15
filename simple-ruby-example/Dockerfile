@@ -1,6 +1,6 @@
 FROM debian
 MAINTAINER Kel Cecil
-EXPOSE 80
+EXPOSE 4567
 
 USER root
 # Notice the -y for apt-get install 
