@@ -8,6 +8,8 @@ This is the companion Github repository for my talk at Pittsburgh TechFest 2015 
 *  techfest-presentation contains the Dockerfile and files to serve my slides exported with an HTML viewer and served from a Docker container! So meta...
 *  sinatra-onbuild is a bonus examples featuring the use of the ONBUILD trigger to demonstrate how we can set certain actions to be deferred until we build from a base image.
 
+You can also 'docker pull' and pull both chucksay (quay.io/kelcecil/chucksay) and my presentation (quay.io/kelcecil/techfest15) from my Docker repository! Try it!
+
 Thanks again for attending my talk! Hit me up on Twitter @praisechaos or feel free to file a Github issue if you have any questions.
 
 ## Slides
