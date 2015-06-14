@@ -5,7 +5,7 @@ USER root
 # Notice the -y for apt-get install 
 RUN apt-get update && apt-get install -y curl procps
 
-ADD ./install-ruby-2.1.sh /tmp/install-ruby-2.1.sh
+COPY ./install-ruby-2.1.sh /tmp/install-ruby-2.1.sh
 COPY ./ruby-app/ /usr/local/app/
 RUN chown -R www-data /usr/local/app/
 
